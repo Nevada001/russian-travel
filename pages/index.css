@@ -160,9 +160,6 @@
     line-height: 35px;
    }
 
-   .intro__subtitle {
-
-   }
    .photo-grid {
     max-width: 288px;
     grid-template-rows: repeat(12, 1fr);
