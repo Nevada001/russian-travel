@@ -1,6 +1,6 @@
 .place {
     display: grid;
-    grid-template-rows: max-content 1fr;
+    grid-template-rows: min-content 1fr;
     grid-template-columns: min-content 1fr;
     gap: 48px 40px;
     padding-bottom: 80px;
@@ -9,3 +9,15 @@
 .place:last-of-type {
     padding-bottom: 92px;
 }
+
+@media screen and (max-width: 767px)  {
+    .place {
+     display: flex;
+     flex-direction: column;
+     padding-bottom: 80px;
+    }
+
+    .place:last-of-type {
+        padding-bottom: 66px;
+    }
+} 
