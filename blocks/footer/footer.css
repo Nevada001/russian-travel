@@ -7,23 +7,23 @@
     padding: 92px 0 24px;
 }
 
-@media screen and (max-width: 1024px) { 
+@media screen and (max-width: 1024px) {
     .footer {
-     max-width: 928px;
+        max-width: 928px;
     }
 }
 
-@media screen and (max-width: 768px)  {
+@media screen and (max-width: 768px) {
     .footer {
-     max-width: 720px;
-     padding-top: 88px;
+        max-width: 720px;
+        padding-top: 88px;
     }
-} 
+}
 
-@media screen and (max-width: 425px)  {
+@media screen and (max-width: 425px) {
     .footer {
-     max-width: 288px;
-     padding-top: 64px;
-     flex-direction: column;
+        max-width: 288px;
+        padding-top: 64px;
+        flex-direction: column;
     }
-} 
+}

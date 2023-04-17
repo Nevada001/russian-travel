@@ -6,10 +6,10 @@
     letter-spacing: 0em;
 }
 
-@media screen and (max-width: 767px)  {
+@media screen and (max-width: 425px) {
     .footer__author {
-     font-size: 14px;
-     line-height: 14px;
-     margin: 48px 0 24px;
+        font-size: 14px;
+        line-height: 14px;
+        margin: 48px 0 24px;
     }
- }
+}

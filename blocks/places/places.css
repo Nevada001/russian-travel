@@ -5,20 +5,20 @@
     flex-direction: column;
 }
 
-@media screen and (max-width: 1024px)  { 
+@media screen and (max-width: 1024px) {
     .places {
-     max-width: 928px;
+        max-width: 928px;
     }
 }
 
-@media screen and (max-width: 768px)  {
+@media screen and (max-width: 768px) {
     .places {
-     max-width: 720px;
+        max-width: 720px;
     }
-} 
+}
 
-@media screen and (max-width: 425px)  {
+@media screen and (max-width: 425px) {
     .places {
-    max-width: 320px;
+        max-width: 320px;
     }
-} 
+}

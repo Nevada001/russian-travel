@@ -7,11 +7,16 @@
   line-height: 28px;
   letter-spacing: 0em;
   text-align: right;
+  margin: 0 18px 0 auto;
 }
 
-@media screen and (max-width: 425px)  {
+.header__lang-link:last-of-type {
+  margin: 0;
+}
+
+@media screen and (max-width: 425px) {
   .header__lang-link {
-  font-size: 18px;
-  line-height: 20px;
+    font-size: 18px;
+    line-height: 20px;
   }
 }
