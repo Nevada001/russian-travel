@@ -7,3 +7,9 @@
     letter-spacing: 0em;
     text-align: left;    
 }
+
+@media screen and (max-width: 768px)  {
+    .intro__list {
+      max-width: 720px;
+    }
+}

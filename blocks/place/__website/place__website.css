@@ -2,8 +2,16 @@
     align-self: end;
 }
 
-@media screen and (max-width: 767px)  {
+@media screen and (max-width: 768px)  {
     .place__website {
     align-self: auto;
     }
+}
+
+@media screen and (max-width: 425px) {
+    .place__website {
+    margin: 0 auto ;
+    min-width: 288px;
+}
+    
 }
