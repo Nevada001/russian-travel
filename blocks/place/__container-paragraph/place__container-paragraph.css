@@ -1,5 +1,11 @@
 .place__container-paragraph {
     align-self: start;
-    margin: 0 auto;
-    max-width: 288px;
+}
+
+@media screen and (max-width: 425px) {
+    .place__container-paragraph {
+        max-width: 288px;
+        margin: auto;
+    }
+    
 }
