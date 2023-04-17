@@ -1,0 +1,15 @@
+.list__meaning {
+    max-width: 690px;
+    margin: 0;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .intro__list {
+      max-width: 720px;
+    }
+  }
