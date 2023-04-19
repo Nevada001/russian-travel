@@ -2,7 +2,7 @@
     align-self: start;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 320px) {
     .place__container-paragraph {
         max-width: 288px;
         margin: auto;

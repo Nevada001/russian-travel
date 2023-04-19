@@ -25,9 +25,7 @@
     z-index: 1;
 }
 
-.cover__link > .cover__link::before {
-    opacity: 0.8;
-}
+
 
 
 @media screen and (max-width: 1024px) {
